@@ -19,22 +19,37 @@ This analysis provides insights to the school board on which strategic decisions
 ### District Summary
 As seen in Figure 1 and Figure 2, taking Thomas High School ninth graders out of the equation had the following effects on the district summary metrics:
 
-* Average Math Score decreased by 0.1%
+* Total Students decreased by 461
+* Average Math Score decreased by <1%
 * Average Reading Score remained unaffected
-* % Passing Math decreased by 0.2%
-* % Passing Reading decreased by 0.3%
-* % Overall Passing decreased by 0.1%
+* % Passing Math decreased by <1%
+* % Passing Reading decreased by <1%
+* % Overall Passing decreased by <1%
 
-![District Summary](Resources/District_Summary.png)
-*Figure 1: District summary including THS 9th Grade*
+![District_Summary](Resources/District_Summary.png)
+*Figure 1: District summary before data cleanup*
 
-![District_Summary_THS](Resources/District_Summary_THS.png)
-*Figure 2: District summary omitting THS 9th Grade*
+![District_Summary_Clean](Resources/District_Summary_Clean.png)
+*Figure 2: District summary after data cleanup*
 
 ### School Summary
+Cleaning the data had the addected Thomas High School's metrics in the following ways:
+
+* % Passing Math decreased from 93% to 67%
+* % Passing Reading decreased from 97% to 70%
+* % Overall Passing decreased from 91% to 65%
+
+### School Rankings
+
+Before the the data cleanup, THS was ranked third in the district (see Figure 3). After cleaning the data, their ranking fell to eighth place, as seen in Figure 4.
+
+![Top_Schools](Resources/Top_Schools.png)
+*Figure 3: School rankings before data cleanup*
+
+![Top_Schools_Clean](Resources/Top_Schools_Clean.png)
+*Figure 4: School rankings after data cleanup*
 
 
-How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
 How does replacing the ninth-grade scores affect the following:
 Math and reading scores by grade
 Scores by school spending
