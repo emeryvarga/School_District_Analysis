@@ -23,7 +23,6 @@ This analysis provides insights to the school board on which strategic decisions
 
 As seen in Figure 1 and Figure 2, taking Thomas High School ninth graders out of the equation had the following effects on the district summary metrics:
 
-* Total Students decreased by 461
 * Average Math Score decreased by <1%
 * Average Reading Score remained unaffected
 * % Passing Math decreased by <1%
@@ -127,3 +126,4 @@ Charter school scores were affected as follows:
 
 ## Summary
 
+Removing 9th grade math and reading scores from Thomas High School negatively impacted its ranking among other schools and had a ripple effect on district score categories that THS fell into.
